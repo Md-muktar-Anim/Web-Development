@@ -1,0 +1,14 @@
+ h1 {
+     background-color: rgb(138, 159, 230);
+     color: brown;
+ }
+
+ ol {
+     background-color: rgba(255, 167, 226, 0.438);
+     color: rgb(8, 53, 177);
+ }
+
+ p {
+     background-color: rgba(111, 124, 37, 0.438);
+     color: rgb(8, 53, 177);
+ }
