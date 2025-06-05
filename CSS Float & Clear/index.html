@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        img {
+            float: left;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+
+        .card:nth-child(3) {
+            background-color: aqua;
+            /* clear: left; */
+            /* clear: right; */
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwehONuH_vaQg4CfMA28JiUTnXsAbuqUORtSvKOTB4p_qwOY2y__IGX4&s"
+            alt="" width="230px">
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quo fuga neque eos ducimus laborum saepe
+            ad sit eius. Neque beatae reprehenderit minima fugit, doloribus cum dicta illo? Debitis, fugit? Sed corrupti
+            alias vero.
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora harum tenetur consequatur magni officia ea
+            vero reprehenderit, dignissimos maiores, magnam dolorum culpa praesentium necessitatibus doloribus et minima
+            perferendis sunt eos error. Rem molestiae dicta nam asperiores quia odit amet expedita voluptate unde
+            repudiandae a neque ducimus iste ex, ipsum itaque quibusdam illo voluptates fugit soluta voluptatum atque?
+            Voluptate unde suscipit quos veritatis incidunt voluptates amet modi sequi ipsam saepe minima repudiandae
+            iure quis omnis quas aliquid eligendi quae ab deserunt in velit eum, inventore eos corrupti! Autem quasi nam
+            placeat perspiciatis sint suscipit. Veniam, neque distinctio autem itaque eius magnam dolore tenetur
+            obcaecati et nulla sequi voluptates recusandae repellendus illo velit mollitia, culpa facilis numquam soluta
+            consequuntur, dolores blanditiis ullam! Non libero ducimus minima vero obcaecati iure a, eveniet, optio
+            recusandae error quae illum! Porro modi reiciendis sed laboriosam animi mollitia quisquam perferendis
+            consectetur nam eligendi facilis quia nostrum sit deserunt magnam, explicabo, eius impedit fugiat deleniti
+            nobis? Quas sequi laboriosam ipsa rem alias corrupti incidunt! Accusantium soluta optio quia provident,
+            assumenda illum dolor deleniti quis impedit eius pariatur harum vitae quae necessitatibus temporibus earum
+            fuga quaerat ducimus debitis quisquam possimus? Sequi debitis ipsam eveniet amet doloribus voluptatum
+            reprehenderit voluptas, odio corrupti magni tenetur accusantium, quaerat quas quibusdam sapiente corporis
+            ipsa alias optio nam. Nam quidem iusto cupiditate consectetur sed similique totam sunt? Ipsam dignissimos
+            officia magnam officiis accusamus neque doloribus quasi aspernatur recusandae. Soluta perferendis obcaecati
+            quibusdam voluptatibus laudantium fugit aut alias, deleniti error molestiae? Praesentium laboriosam fugiat
+            amet, itaque deserunt aperiam dolorem corporis excepturi natus. Nisi adipisci iusto tenetur possimus,
+            similique recusandae, amet culpa, alias reprehenderit tempora consectetur autem omnis perspiciatis sit
+            quisquam laborum sed id? Sequi dolore ab cum esse at! Sed vero nam labore? Distinctio fugit quisquam
+            accusantium? Magnam soluta quisquam corrupti labore alias nulla, voluptates similique aspernatur doloribus
+            non culpa. Maiores quisquam doloribus voluptas ipsam, excepturi perspiciatis in quasi minima incidunt
+            eligendi magni, consequatur sequi molestiae quis nihil. Repellendus nemo unde nam inventore, maxime
+            temporibus tempora ea nostrum?
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>
